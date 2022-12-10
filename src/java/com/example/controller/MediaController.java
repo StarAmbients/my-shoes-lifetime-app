@@ -63,7 +63,7 @@ public class MediaController extends HttpServlet {
             case "manager":
                 fmm.loadData();
                 request.setAttribute("fileBean", fmm);
-                address = "/WEB-INF/manager.jsp";
+                address = "/WEB-INF/index.jsp";
                 break;
             case "item":
                 String itemId = request.getParameter("itemId");
@@ -95,7 +95,7 @@ public class MediaController extends HttpServlet {
                 }
                 fmm.loadData(mq);
                 request.setAttribute("fileBean", fmm);                
-                address = "/WEB-INF/manager.jsp";
+                address = "/WEB-INF/index.jsp";
                 break;
             default:
                 request.setAttribute("error", "Unknown action!");
@@ -107,7 +107,7 @@ public class MediaController extends HttpServlet {
 
 //        fmm.loadData();
 //        request.setAttribute("fileBean", fmm);
-//        RequestDispatcher dispatcher=request.getRequestDispatcher("/WEB-INF/manager.jsp");
+//        RequestDispatcher dispatcher=request.getRequestDispatcher("/WEB-INF/index.jsp");
 //        RequestDispatcher dispatcher=request.getRequestDispatcher("/WEB-INF/prueba.jsp");
 //        dispatcher.forward(request, response);
 //        try ( PrintWriter out = response.getWriter()) {

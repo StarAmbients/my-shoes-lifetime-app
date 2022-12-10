@@ -796,13 +796,13 @@ img.r-img{
 	display:inline-block;
 	background:url(../images/footer-social.png) no-repeat 0px 0px;
 }
-.footer-social ul li a.pin span{
+.footer-social ul li a.github span{
 	background-position:0px 0px;
 }
-.footer-social ul li a.twitter span{
+.footer-social ul li a.linkedin span{
 	background-position: -38px 0px;
 }
-.footer-social ul li a.facebook span{
+.footer-social ul li a.twitter span{
 	background-position: -78px 0px;
 }
 .footer-logo{
