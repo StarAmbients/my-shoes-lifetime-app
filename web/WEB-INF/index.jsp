@@ -94,7 +94,7 @@
             <!---top-header-search-box--->
             <div class="top-header-search-box">
                 <form>
-                    <input type="text" placeholder="Search" required / maxlength="22">
+                    <input type="text" placeholder="Buscar" required / maxlength="22">
                     <input type="submit" value=" " >
                 </form>
             </div>
