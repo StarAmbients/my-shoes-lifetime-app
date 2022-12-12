@@ -27,6 +27,6 @@ Para llevar a cabo el proyecto, hemos prestado atención a cada uno de los pasos
 
   Visualize lo que tenemos hasta el momento:
 
-  ![VIDEO(./public/der.png)
+  ![VIDEO(https://drive.google.com/file/d/1l-YjHH-37V5gQSfAGf4itm7MUjckOhI6/view?usp=sharing)
 
 </details>
